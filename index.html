@@ -59,65 +59,25 @@
     <!-- Calculator -->
     <div class="calc">
       <div class="container">
-        <div class="calc-inner">
+        <div class="calc-top">
           <h1>What's your <em>perfect</em> loan?</h1>
-          <div class="calc-icons">
-            <div class="icon-card">
-              <a href="#">
-                <i class="fas fa-home fa-3x icon"></i>
-                <p>New Loan</p>
-              </a>
-            </div>
+          <div class="calc-top-toggle">
+            <button class="active">
+              <i class="fas fa-home fa-4x"></i>
+              <p>New Loan</p>
+            </button>
             <p>or</p>
-            <div class="icon-card">
-              <a href="#">
-                <i class="fas fa-home fa-3x icon"></i>
-                <p>Refinance</p>
-              </a>
-            </div>
+            <button>
+              <i class="fas fa-home fa-4x"></i>
+              <p>Refinance</p>
+            </button>
           </div>
-          <h2>Mortage Calculator</h2>
-          <p>
-            Use our mortgage calculator to make estimating your monthly mortgage
-            payment easy. Just enter the home value, your down payment amount,
-            the type of mortgage, and the interest rate. See how much house you
-            can afford!
-          </p>
-          <!-- Input Card -->
-          <div class="input-card">
-            <h4>Mortgage Information</h4>
-            <form action="get">
-              <label for="pPrice">Purchase Price</label>
-              <input type="number" name="pPrice" />
-              <div class="dPayment-card">
-                <div class="dPayment-left">
-                  <label for="dPayment">Down Playment</label>
-                  <input type="number" name="dPayment" />
-                </div>
-                <p>or</p>
-                <div class="dPayment-right">
-                  <input type="number" name="dPayment" />
-                </div>
-              </div>
-              <label for="mortgageType">Type of Mortgage</label>
-              <select name="mortgageType">
-                <option value="15F">15 Year Fixed-Rate</option>
-                <option value="30F">30 Year Fixed-Rate</option>
-                <option value="ARM">5/1 Adjustable-Rate Mortgage (ARM)</option>
-              </select>
-              <label for="interestRate">Interest Rate</label>
-              <input type="number" name="interestRate" />
-            </form>
-            <button class="btn">Calculate</button>
-          </div>
-          <!-- /Input Card -->
-
-          <!-- Results Card -->
-          <div class="results-card"></div>
-          <!-- /Results Card -->
         </div>
+        <div class="calc-bottom"></div>
       </div>
     </div>
+    <!-- Input Card -->
+
     <!-- Calculator -->
   </body>
 </html>
