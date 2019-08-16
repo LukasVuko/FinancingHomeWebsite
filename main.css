@@ -92,7 +92,7 @@ strong {
   color: rgb(115, 115, 115);
 }
 .btn-group {
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   padding: 1em 0;
@@ -119,4 +119,87 @@ strong {
   margin: 0.2em;
   cursor: pointer;
   margin-left: 0;
+}
+
+/* Calculator - Top */
+
+.calc-inner {
+  background-color: white;
+  margin: 2em 0;
+  padding: 1em;
+  color: rgb(115, 115, 115);
+}
+
+.calc-inner h1 {
+  color: rgb(75, 172, 233);
+}
+
+.calc-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  margin: 1em;
+}
+
+.icon-card {
+  padding: 1em;
+  border-radius: 5px;
+}
+.icon-card p {
+  text-transform: uppercase;
+}
+.icon-card a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.icon-card:last-child a {
+  color: rgb(75, 172, 233);
+}
+.icon-card:first-child {
+  background-color: rgb(75, 172, 233);
+  color: white;
+}
+.icon-card:last-child {
+  color: rgb(75, 172, 233);
+  background-color: white;
+  border: 2px solid rgb(75, 172, 233);
+}
+
+/* Calculator - Bottom */
+
+.input-card {
+  width: 30%;
+  background-color: rgb(230, 230, 230);
+  padding: 1em;
+  border-radius: 5px;
+  border: rgb(115, 115, 115) solid 1px;
+}
+.input-card h4 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+.input-card form label {
+  display: block;
+}
+.input-card form input {
+  width: 100%;
+  border: rgb(115, 115, 115) solid 1px;
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 5px;
+}
+.input-card form input:focus {
+  outline: none;
+}
+
+select {
+  width: 100%;
+  border: rgb(115, 115, 115) solid 1px;
+  padding: 1em;
+  font-size: 1em;
+  border-radius: 5px;
 }
